@@ -1,0 +1,8 @@
+# Ignore Terraform local files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.exe
+
+terraform/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.16.0/windows_amd64/terraform-provider-azurerm_v4.16.0_x5.exe
