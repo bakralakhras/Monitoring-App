@@ -9,8 +9,7 @@ Welcome to the **Monitoring App** repository! 🌟 This project is designed to p
 2. [Why Terraform?](#-why-terraform)
 3. [Docker Workflow](#-docker-workflow)
 4. [How to Use This Repository](#-how-to-use-this-repository)
-5. [Contributing](#-contributing)
-6. [License](#-license)
+
 
 ---
 
