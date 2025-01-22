@@ -84,3 +84,17 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/bakralakhras/Monitoring-App.git
 cd Monitoring-App
+### **3. Set Up Terraform 🏗️**
+1. Navigate to the `terraform` directory and initialize Terraform:
+   ```bash
+   cd terraform
+   terraform init
+2. Apply the Terraform configuration to provision resources:
+```bash
+  terraform apply
+3.Build and Push Docker Images 🐳
+```bash
+   cd ../app
+  docker build -t <your-acr-name>.azurecr.io/monitoring-app:latest .
+  docker push <your-acr-name>.azurecr.io/monitoring-app:latest
+
