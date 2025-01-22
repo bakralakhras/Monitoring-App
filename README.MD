@@ -89,12 +89,18 @@ cd Monitoring-App
    ```bash
    cd terraform
    terraform init
+```
 2. Apply the Terraform configuration to provision resources:
 ```bash
   terraform apply
-3.Build and Push Docker Images 🐳
+```
+### **4. Build and Push Docker Images 🐳**
 ```bash
    cd ../app
   docker build -t <your-acr-name>.azurecr.io/monitoring-app:latest .
   docker push <your-acr-name>.azurecr.io/monitoring-app:latest
-
+```
+### **5.Deploy to Kubernetes 🚀**
+```bash
+kubectl apply -f deployment.yaml
+```
